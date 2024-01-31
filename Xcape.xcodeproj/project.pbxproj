@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC14945B2B6556FD0053DDDB /* PickupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC14945A2B6556FD0053DDDB /* PickupView.swift */; };
+		DC43765F2B6855C700345E57 /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC43765E2B6855C700345E57 /* SpeechManager.swift */; };
 		DC8D429C2B6177AF00497791 /* XcapeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D429B2B6177AF00497791 /* XcapeApp.swift */; };
 		DC8D429E2B6177AF00497791 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D429D2B6177AF00497791 /* ContentView.swift */; };
 		DC8D42A02B6177B500497791 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8D429F2B6177B500497791 /* Assets.xcassets */; };
 		DC8D42A32B6177B500497791 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8D42A22B6177B500497791 /* Preview Assets.xcassets */; };
+		DC8F4B4F2B63333800583A22 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F4B4E2B63333800583A22 /* ListView.swift */; };
+		DC8F4B512B644A5700583A22 /* LoaditemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F4B502B644A5700583A22 /* LoaditemsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC14945A2B6556FD0053DDDB /* PickupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickupView.swift; sourceTree = "<group>"; };
+		DC43765E2B6855C700345E57 /* SpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
+		DC5501CC2B66D00500431C87 /* mapstogpx20240128_180603.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = mapstogpx20240128_180603.gpx; sourceTree = "<group>"; };
+		DC5501CD2B66D31400431C87 /* thevv20240128_182149.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = thevv20240128_182149.gpx; sourceTree = "<group>"; };
 		DC8D42982B6177AF00497791 /* Xcape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xcape.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC8D429B2B6177AF00497791 /* XcapeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcapeApp.swift; sourceTree = "<group>"; };
 		DC8D429D2B6177AF00497791 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DC8D429F2B6177B500497791 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC8D42A22B6177B500497791 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC8F4B4E2B63333800583A22 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		DC8F4B502B644A5700583A22 /* LoaditemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaditemsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,8 @@
 		DC8D428F2B6177AF00497791 = {
 			isa = PBXGroup;
 			children = (
+				DC5501CD2B66D31400431C87 /* thevv20240128_182149.gpx */,
+				DC5501CC2B66D00500431C87 /* mapstogpx20240128_180603.gpx */,
 				DC8D429A2B6177AF00497791 /* Xcape */,
 				DC8D42992B6177AF00497791 /* Products */,
 			);
@@ -53,6 +65,10 @@
 			children = (
 				DC8D429B2B6177AF00497791 /* XcapeApp.swift */,
 				DC8D429D2B6177AF00497791 /* ContentView.swift */,
+				DC8F4B4E2B63333800583A22 /* ListView.swift */,
+				DC8F4B502B644A5700583A22 /* LoaditemsView.swift */,
+				DC14945A2B6556FD0053DDDB /* PickupView.swift */,
+				DC43765E2B6855C700345E57 /* SpeechManager.swift */,
 				DC8D429F2B6177B500497791 /* Assets.xcassets */,
 				DC8D42A12B6177B500497791 /* Preview Content */,
 			);
@@ -137,8 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC8F4B4F2B63333800583A22 /* ListView.swift in Sources */,
+				DC43765F2B6855C700345E57 /* SpeechManager.swift in Sources */,
+				DC14945B2B6556FD0053DDDB /* PickupView.swift in Sources */,
 				DC8D429E2B6177AF00497791 /* ContentView.swift in Sources */,
 				DC8D429C2B6177AF00497791 /* XcapeApp.swift in Sources */,
+				DC8F4B512B644A5700583A22 /* LoaditemsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,9 +287,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Xcape/Preview Content\"";
-				DEVELOPMENT_TEAM = 5V557AV2R8;
+				DEVELOPMENT_TEAM = 4V7VFMW29X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Xcape;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Your location is used enable accurate driving navigation only";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Your location is used enable accurate driving navigation only";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is used enable accurate driving navigation only";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -280,7 +304,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ai.xcape.Xcape;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.xcape.Xcape.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -296,9 +320,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Xcape/Preview Content\"";
-				DEVELOPMENT_TEAM = 5V557AV2R8;
+				DEVELOPMENT_TEAM = 4V7VFMW29X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Xcape;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Your location is used enable accurate driving navigation only";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Your location is used enable accurate driving navigation only";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is used enable accurate driving navigation only";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -309,7 +337,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ai.xcape.Xcape;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.xcape.Xcape.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
